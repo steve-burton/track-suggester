@@ -32,9 +32,9 @@ div #yourtrack {
   border-radius: 30px;
 }
 
-#yourtrack p {
+/* #yourtrack {
   display: none;
-}
+} */
 
 #rightside {
   width: 55%;

@@ -7,29 +7,25 @@ $(document).ready(function() {
     var sunday = $("select#sunday").val();
 
 
-  var celebrity = function(){
+  var yourtrack = function(){
 
-      if (age < 25 && gender === "male" && genderPref === "female") {
-        return ("Miley");
-      } else if (age <  25 && gender === "male" && genderPref === "male") {
-        return ("Brad");
-      } else if (age < 25 && gender === "female" && genderPref === "male") {
-        return ("Craig");
-      } else if (age < 25 && gender === "female" && genderPref === "female") {
-        return ("Dina");
-      } else if (age > 25 && gender === "male" && genderPref === "female") {
-        return ("Elanore");
-      } else if (age > 25 && gender === "male" && genderPref === "male") {
-        return ("Fred");
-      } else if (age > 25 && gender === "female" && genderPref === "male") {
-        return ("George");
-      } else if (age > 25 && gender === "female" && genderPref === "female") {
-        return ("Helena");
+      if (website === "frontEnd" && favoriteColor === "orange") {
+        return ("CSS/Design");
+      } else if (favoriteColor === "orange") {
+        return ("CSS/Design");
+      } else if (computer === "windows") {
+        return ("C#/.NET");
+      } else if (hipster === "exactly") {
+        return ("Ruby/Rails");
+      } else if (sunday === "football") {
+        return ("C#/.NET");
+      } else (sunday === "sleep") {
+        return ("Ruby/Rails");
       }
     };
 
-    $("#output").text(celebrity);
-    $("#yourceleb").show();
+    $("#output").text(yourtrack);
+    $("#yourtrack").show();
 
     event.preventDefault();
   });
