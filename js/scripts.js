@@ -9,15 +9,15 @@ $(document).ready(function() {
 
   var yourtrack = function(){
 
-      if (website == "frontEnd" || favoriteColor == "orange") {
+      if (website === "backEnd") {
         return ("CSS/Design");
-        } else if (favoriteColor == "orange") {
+        } else if (favoriteColor === "orange") {
           return ("CSS/Design");
-        } else if (computer == "windows") {
+        } else if (computer === "windows") {
           return ("C#/.NET");
-        } else if (hipster == "exactly") {
+        } else if (hipster === "exactly") {
           return ("Ruby/Rails");
-        } else if (sunday == "football") {
+        } else if (sunday === "football") {
           return ("C#/.NET");
         } else {
           return ("Ruby/Rails");
