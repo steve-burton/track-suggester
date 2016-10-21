@@ -29,6 +29,7 @@ div #yourtrack {
   border-color: #00b3b4;
   border-width: medium;
   float: right;
+  border-radius: 30px;
 }
 
 #yourtrack p {
