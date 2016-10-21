@@ -8,73 +8,76 @@
   </head>
   <body>
     <div id="header">
-
+      <img src="img/epicodus.png" alt="epicodus logo"/>
     </div>
     <div id="top-photo">
       <h1>WHAT TRACK SHOULD I TAKE?</h1>
     </div>
     <div class="container">
-    <h2>Epicodus student can use the form below to help decide which track is best for them.</h2>
-      <form id="questions">
-        <div class="form-group">
-          <label for="website">When ordering from your favorite website, are you more likely to comment on . . . ?</label>
-          <select id="website" class="form-control" type="text">
-            <option value="frontEnd">the appearance of the user interface.</option>
-            <option value="backEnd">how easy it is to order something.</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label for="favoriteColor">What's your favorite color?</label>
-          <select id="favoriteColor" class="form-control" type="text">
-            <option value="black">Black</option>
-            <option value="white">White</option>
-            <option value="orange">Orange</option>
-          </select>
-        </div>
-
-        <div>
-          <h3>Do you prefer . . .</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="computer" value="windows" checked>
-              Windows
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="computer" value="macintosh">
-              Macintosh
-            </label>
-          </div>
-
-          <div class="form-group">
-            <h3>Complete this statement . . .</h3>
-            <label for="statement">Kombucha banh mi locavor</label>
-            <select id="statement" class="form-control" type="text">
-              <option value="exactly">Exactly!</option>
-              <option value="what">What?</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="statement">Sunday mornings are for . . .</label>
-            <select id="statement" class="form-control" type="text">
-              <option value="exactly">Football!</option>
-              <option value="what">Sleeping until noon.</option>
-            </select>
-          </div>
-
-        </div>
-      </form>
-
-      <div>
-        <button type="submit" class="btn">Show me my suggested track.</button>
-      </div>
-
       <div id="yourtrack">
         <p>Your suggested track is <span id="output"></span>.</p>
       </div>
+      <div id="rightside">
+        <h2>Epicodus students can use the form below to help decide which track is best for them.</h2>
+        <form id="questions">
+          <div class="form-group">
+            <label for="website">When ordering from your favorite website, are you more likely to comment on . . . ?</label>
+            <select id="website" class="form-control" type="text">
+              <option value="frontEnd">the appearance of the user interface.</option>
+              <option value="backEnd">how easy it is to order something.</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="favoriteColor">What's your favorite color?</label>
+            <select id="favoriteColor" class="form-control" type="text">
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="orange">Orange</option>
+            </select>
+          </div>
+
+          <div>
+            <h3>Do you prefer . . .</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="computer" value="windows" checked>
+                Windows
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="computer" value="macintosh">
+                Macintosh
+              </label>
+            </div>
+
+            <div class="form-group">
+              <h3>Complete this statement . . .</h3>
+              <label for="statement">Kombucha banh mi locavor</label>
+              <select id="statement" class="form-control" type="text">
+                <option value="exactly">Exactly!</option>
+                <option value="what">What?</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="statement">Sunday mornings are for . . .</label>
+              <select id="statement" class="form-control" type="text">
+                <option value="exactly">Football!</option>
+                <option value="what">Sleeping until noon.</option>
+              </select>
+            </div>
+
+          </div>
+        </form>
+
+        <div>
+          <button type="submit" class="btn">Show me my suggested track.</button>
+        </div>
+      </div>
+
+
 
     </div>
   </body>

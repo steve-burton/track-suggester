@@ -1,3 +1,44 @@
 #top-photo {
   background-image: url(../img/students.jpg);
+  text-align: center;
+  color: white;
+  /* padding-top: 10px; */
+  padding-bottom: 310px;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+}
+
+#top-photo h1 {
+  font-size: 4em;
+  font-weight: 200;
+  padding-top: 250px;
+  letter-spacing: .05em;
+}
+
+#header img {
+  width: 300px;
+  margin: 20px 20px 5px 40px;
+
+}
+
+div #yourtrack {
+  height: 500px;
+  width: 40%;
+  padding: 50px 50px 50px 50px;
+  border-style: solid;
+  border-color: #00b3b4;
+  border-width: medium;
+  float: right;
+}
+
+#yourtrack p {
+  display: none;
+}
+
+#rightside {
+  width: 55%;
+}
+
+body {
+  padding-bottom: 50px;
 }
