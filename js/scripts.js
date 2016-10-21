@@ -9,19 +9,20 @@ $(document).ready(function() {
 
   var yourtrack = function(){
 
-      if (website === "frontEnd") {
+      if (website === "frontEnd" && favoriteColor === "orange") {
         return ("CSS/Design");
-        } else if (favoriteColor === "orange") {
-          return ("CSS/Design");
-        } else if (computer === "windows") {
-          return ("C#/.NET");
-        } else if (hipster === "exactly") {
-          return ("Ruby/Rails");
-        } else if (sunday === "football") {
-          return ("C#/.NET");
-        } else {
-          return ("Ruby/Rails");
+      } else if (favoriteColor === "orange" && computer === "macintosh") {
+        return ("CSS/Design");
+      } else if (computer === "windows" && favoriteColor === "white") {
+        return ("C#/.NET");
+      } else if (hipster === "exactly" && sunday === "sleep") {
+        return ("Ruby/Rails");
+      } else if (sunday === "football" && favoriteColor === "black") {
+        return ("C#/.NET");
+      } else if (sunday === "sleep" && favoriteColor === "orange") {
+        return ("Ruby/Rails");
       }
+
     };
 
     $("#output").text(yourtrack);
