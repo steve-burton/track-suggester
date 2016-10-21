@@ -1,6 +1,6 @@
 # Epicodus Track Suggester
 
-#### HTML CSS JavaScript exercise for Epicodus.
+#### HTML, CSS, JavaScript exercise for Epicodus.
 
 #### By Steve Burton
 

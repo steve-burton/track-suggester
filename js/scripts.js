@@ -1,3 +1,4 @@
+//### User interface ###//
 $(document).ready(function() {
   $("form#questions").submit(function(event) {
     var website = $("select#website").val();
@@ -6,12 +7,18 @@ $(document).ready(function() {
     var hipster = $("select#hipster").val();
     var sunday = $("select#sunday").val();
 
-
+//### Business logic ###//
   var yourtrack = function(){
 
       if (website === "frontEnd" && favoriteColor === "orange") {
         return ("CSS/Design");
-      } else if (favoriteColor === "orange") {
+      } else if (website === "backEnd" && computer === "macintosh") {
+        return ("Ruby/Rails");
+      } else if (website === "backEnd" && favoriteColor === "orange") {
+        return ("CSS/Design");
+      } else if (website === "backEnd" && favoriteColor === "black") {
+        return ("C#/.NET");
+      } else if (favoriteColor === "orange" && computer === macintosh) {
         return ("CSS/Design");
       } else if (computer === "windows") {
         return ("C#/.NET");
