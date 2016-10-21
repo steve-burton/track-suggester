@@ -15,15 +15,15 @@
 }
 
 #header img {
-  width: 200px;
-  margin: 20px 50px 5px 110px;
+  width: 180px;
+  margin: 20px 10px 0px 110px;
 }
 
 #links {
-  width: 37%;
+  width: 34%;
   float: right;
   word-spacing: 2em;
-  margin-top: 70px;
+  margin-top: 60px;
   margin-left: 150px;
   color: #8b93a0;
   letter-spacing: 0.05em;
@@ -50,9 +50,9 @@ h2 {
 
 #apply {
   float: right;
-  margin-top: 57px;
+  margin-top: 50px;
   margin-right: 80px;
-  margin-left: 0px;
+  margin-left: 20px;
   border: none;
   padding: 10px 20px 10px 20px;
   letter-spacing: .05em;
