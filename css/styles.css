@@ -30,6 +30,20 @@
   letter-spacing: 0.05em;
 }
 
+a:link {
+  color: #8b93a0;
+}
+
+a:visited {
+  color: #8b93a0;
+}
+
+h2 {
+  color: #00b3b4;
+  font-weight: 200;
+  letter-spacing: 0.02em;
+}
+
 .btn {
   background-color: #00b3b4;
   letter-spacing: 0.05em;
@@ -50,6 +64,18 @@ button#suggest {
   padding: 10px 10px 10px 10px;
 }
 
+#rightside h2 {
+  padding-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+#complete {
+  margin-top: 30px;
+}
+
 div #yourtrack {
   height: 500px;
   width: 40%;
@@ -59,6 +85,7 @@ div #yourtrack {
   border-width: medium;
   float: right;
   border-radius: 30px;
+  margin-top: 20px;
 }
 
 #yourtrack p {
@@ -83,5 +110,5 @@ div #yourtrack {
 }
 
 body {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
