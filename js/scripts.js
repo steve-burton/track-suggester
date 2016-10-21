@@ -18,6 +18,8 @@ $(document).ready(function() {
         return ("CSS/Design");
       } else if (website === "backEnd" && favoriteColor === "black") {
         return ("C#/.NET");
+      } else if (website === "backEnd" && hipster === "what") {
+        return ("C#/.NET");
       } else if (favoriteColor === "orange" && computer === macintosh) {
         return ("CSS/Design");
       } else if (computer === "windows") {
