@@ -11,15 +11,15 @@ $(document).ready(function() {
 
       if (website === "frontEnd" && favoriteColor === "orange") {
         return ("CSS/Design");
-      } else if (favoriteColor === "orange" && computer === "macintosh") {
+      } else if (favoriteColor === "orange") {
         return ("CSS/Design");
-      } else if (computer === "windows" && favoriteColor === "white") {
+      } else if (computer === "windows") {
         return ("C#/.NET");
-      } else if (hipster === "exactly" && sunday === "sleep") {
+      } else if (hipster === "exactly") {
         return ("Ruby/Rails");
-      } else if (sunday === "football" && favoriteColor === "black") {
+      } else if (sunday === "football") {
         return ("C#/.NET");
-      } else if (sunday === "sleep" && favoriteColor === "orange") {
+      } else if (sunday === "sleep") {
         return ("Ruby/Rails");
       }
 
