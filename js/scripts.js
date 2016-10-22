@@ -31,7 +31,6 @@ $(document).ready(function() {
       } else if (sunday === "sleep") {
         return ("Ruby/Rails");
       }
-
     };
 
     $("#output").text(yourtrack);
